@@ -1,0 +1,401 @@
+#MainLayout {
+    display: block;
+    float: none;
+    width: 100%;
+	}
+	
+	body {
+    display: block;
+    margin: 8px;
+	}
+	
+	body {
+    margin: 0;
+    padding: 0;
+    background: white;
+	}
+	
+	body.b915 {
+    background: transparent no-repeat center top;
+    background-attachment: fixed;
+	}	
+
+	div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form {
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    height: auto;
+	}
+	
+	div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form {
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    height: auto;
+	}
+
+	div {
+    display: block;
+	}
+	
+	body, input, select, textarea, a, th, td, caption, h1, h2, h3, h4, h5, h6 {
+    font-family: gulim, 굴림, Helvetica;
+    font-size: 12px;
+    color: #000;
+    font-weight: normal;
+    letter-spacing: 0px;
+    font-style: normal;
+    text-decoration: none;
+	}
+	
+	body, input, select, textarea, a, th, td, caption, h1, h2, h3, h4, h5, h6 {
+    font-family: gulim, '굴림', 'Apple SD Gothic Neo', Helvetica;
+    font-size: 12px;
+    color: #000;
+    font-weight: normal;
+    letter-spacing: 0px;
+    font-style: normal;
+    text-decoration: none;
+	}
+	
+	html {
+    color: -internal-root-color;
+	}
+	
+	#MainBody {
+    display: block;
+    float: none;
+    width: 1092px;
+    margin: 0 auto;
+    text-align: left;
+	}
+	
+	#MainHead, #MainMiddle, #MainTail{
+    clear: both;
+	}
+	
+	#MainHead {
+    width: 915px;
+	}
+	
+	#HeadTOP {
+    width: 915px;
+    height: 120px;
+    margin-top: 40px;
+    overflow: hidden;
+    clear: both;
+	}
+	
+	#MainLogo {
+    float: left;
+    width: 275px;
+    height: 120px;
+    background: url() no-repeat center center;
+	}
+	
+	#MainLogo a {
+    display: inline-block;
+    width: 275px;
+    height: 120px;
+    color: transparent;
+    font-size: 0;
+	}
+	
+	#HeadMenu {
+    display: block;
+    width: 100%;
+    margin-top: 4px;
+	}
+	
+	.hidden {
+    display: none;
+	}
+	
+	#HeadMenu .topmenu {
+    display: block;
+    float: none;
+    background: #1c1c1c;
+    border: 1px solid #000;
+    border-radius: 15px 15px 0 0;
+	}
+	
+	#HeadMenu .topmenu .item {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+	}
+	
+	#HeadMenu .topmenu[data-length="5"] .item {
+    width: 182px;
+	}
+	
+	#HeadMenu .topmenu .link {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+	}
+	
+	#HeadMenu .topmenu .item:first-child .link::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 40px;
+    background: url() no-repeat 0 0;
+	}
+	
+	#HeadMenu .topmenu .link .text {
+    display: block;
+    color: #d4d4d4;
+    font-size: 12px;
+    font-family: NanumBarunGothic, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+	}
+	
+	#HeadMenu .topmenu::after {
+    display: block;
+    content: '';
+    clear: both;
+	}	
+	
+	#HeadMenu .topmenu .item:last-child .link::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 40px;
+    background: url() no-repeat 0 0;
+	}
+	
+	#MainHead, #MainMiddle, #MainTail{
+    clear: both;
+	}
+	
+	#MainMiddle .middle, #MainMiddle .middle2 {
+    display: block;
+    position: relative;
+    float: none;
+    width: 1092px;
+	}
+	
+	#MainMiddle .middle2::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 173px;
+    background: #1c1c1c url() no-repeat center bottom;
+    border: 1px solid #000;
+    border-top: 0;
+    box-sizing: border-box;
+    z-index: 10;
+	}
+	
+	#MainMiddle .middle2::after {
+    display: block;
+    content: '';
+    clear: both;
+	}
+	
+	#Left {
+    position: relative;
+    width: 173px;
+    padding-bottom: 370px;
+    z-index: 20;
+	}
+	
+	#Main {
+    width: 742px;
+    margin-top: 0;
+    background-color: #fff;
+	}
+	
+	#Main {
+    min-height: 3600px;
+    padding-bottom: 10px;
+	}
+	
+	#Right {
+    float: right;
+    width: 167px;
+    margin: 253px 0 0 10px;
+    overflow: hidden;
+	}
+	
+	#Right {
+    margin-top: 258px !important;
+	}
+	
+	#LeftMenu, #LeftMenu div, #LeftMenu ul, #LeftMenu li, #LeftMenu h3 {
+    display: block;
+    float: none;
+	}	
+	
+	#LeftMenu .menu_area .menu_title {
+    height: 37px;
+    padding-left: 20px;
+    background: #38404c;
+    color: #fff;
+    border-top: 2px solid #5c6c82;
+    font-family: NanumBarunGothic, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 37px;
+	}
+	
+	#LeftMenu .menu_area .list {
+    margin: 0 1px;
+    padding: 7px 6px;
+	}
+	
+	#LeftMenu .menu_area .list li {
+    padding: 0 9px;
+	}	
+	
+	#LeftMenu .menu_area .list a {
+    display: block;
+    height: 30px;
+    padding: 0px 0px 0px 10px;
+    color: #a4a4a4;
+    border-bottom: 1px solid #3b434e;
+    font-family: NanumBarunGothic, sans-serif;
+    line-height: 30px;
+	}
+	
+	.pcMain {
+    float: none;
+    display: block;
+    padding: 10px;
+    padding-top: 0;
+	}
+	
+	.pcMain {
+    padding: 10px 10px 0 10px;
+	}
+	
+	.pcMain .ibuilderModules {
+    float: none;
+    display: block;
+	}
+	
+	.pcMain .ibuilderModules div, .pcMain .ibuilderModules div, .pcMain .ibuilderModules h1, .pcMain .ibuilderModules h2, .pcMain .ibuilderModules h3, .pcMain .ibuilderModules h4, .pcMain .ibuilderModules h5, .pcMain .ibuilderModules h6, .pcMain .ibuilderModules ul {
+    display: block;
+	}
+	
+	.pcMain .ibuilderModules * {
+    float: none;
+	}
+	
+	.pcMain .ibuilderModules .ib_box {
+    padding-bottom: 10px;
+	}
+	
+	#RightMenu {
+    width: 167px;
+    margin: 0;
+    overflow: hidden;
+    clear: both;
+	}
+	
+	.RightMenuGroups {
+    width: 165px;
+	}
+	
+	#RightMenu .RightMenuGroups {
+    margin: 0px;
+	}
+	
+	#RightMenu .RightMenuGroups{
+    margin: 10px 0 0 0;
+	}
+	
+	#RightMenu .menu_item {
+    width: 167px;
+	}
+	
+	#RightMenu .menu_item, #RightMenu .menu_item div, #RightMenu .menu_item form, #RightMenu .menu_item li, #RightMenu .menu_item .item_title {
+    display: block;
+    float: none;
+    font-family: NanumBarunGothic, sans-serif;
+	}
+	
+	#RightMenu .menu_item .item_title {
+    height: 30px;
+    padding-left: 10px;
+    background: #38404c;
+    color: #fff;
+    border-top: 2px solid #5c6c82;
+    font-size: 13px;
+    font-family: NanumBarunGothic, sans-serif;
+    line-height: 30px;
+	}
+	
+	#RightMenu .menu_item .item_body {
+    padding: 4px;
+    border: 1px solid #9e9e9e;
+    border-top: 0;
+    background: #fff;
+	}
+	
+	#RightMenu .menu_item .item_body * {
+    font-family: NanumBarunGothic, sans-serif;
+	}
+	
+	#RightMenu .menu_item.list01 .list {
+    display: block;
+    float: none;
+	}
+	
+	#RightMenu .menu_item.list01 .row {
+    position: relative;
+    padding-left: 25px;
+	}
+	
+	#RightMenu .menu_item.list01 .row::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    width: 2px;
+    height: 2px;
+    margin-top: 1px;
+    background: #575757;
+}
+	
+	 #RightMenu .menu_item.list01 .link {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+	}
+	
+	#left, #leftMenu, #leftLoginbox, .Left_login_box {
+	display: block;
+	float: none;
+	border: 1px solid red;
+	background-color: white;
+	}
+	#left, #leftMenu, #leftLoginbox, .left_login_box, .login_box {
+	text-align: center;
+	}
+	
+	#left, #leftMenu, .Left_login_box, .btn_area{
+	color: #a4a4a4;
+	} 
